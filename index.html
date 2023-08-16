@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Revisão</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#listas">Listas</a>
-        <a href="#tabelas">Tabelas</a>
-        <a href="#formularios">Formulários</a>
-      </nav>
-    </header>
-    <main>
-      <section id="listas">
-        <h2>Listas</h2>
-      </section>
-      <section id="tabelas">
-        <h2>Tabelas</h2>
-      </section>
-      <section id="formularios">
-        <h2>Formulários</h2>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revisão</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#listas">Listas</a>
+      <a href="#tabelas">Tabelas</a>
+      <a href="#formularios">Formulários</a>
+    </nav>
+  </header>
+  <main>
+    <section id="listas">
+      <h2>Listas</h2>
+
+      <!-- Criar duas listas ul e ol -->
+      <ol>
+        <li>Banana</li>
+        <li>Pêra</li>
+        <li>Maçã</li>
+      </ol>
+
+      <br />
+
+      <ul>
+        <li>Maracujá</li>
+        <li>Pitaya</li>
+        <li>Kiwi</li>
+      </ul>
+    </section>
+    <section id="tabelas">
+      <h2>Tabelas</h2>
+
+      <!-- Criar tabela usando thead e tbody -->
+      <div class="table-responsive">
+        <table>
+          <thead class="table-light">
+            <th scope="col">Frutas</th>
+            <th scope="col">Legumes</th>
+            <th scope="col">Grãos</th>
+          </thead>
+          <tboby>
+            <tr>
+              <td>Banana</td>
+              <td>Abóbora</td>
+              <td>Amaranto</td>
+            </tr>
+          </tboby>
+          <tboby>
+            <tr>
+              <td>Pêra</td>
+              <td>Batata</td>
+              <td>Millet</td>
+            </tr>
+            <tboby>
+              <tr>
+                <td>Maçã</td>
+                <td>Cenoura</td>
+                <td>Quinoa</td>
+              </tr>
+            </tboby>
+        </table>
+      </div>
+    </section>
+    <section id="formularios">
+      <h2>Formulários</h2>
+
+      <!-- formulario com 3 inputs -->
+
+      <form>
+        <div class="form-check">
+          <label class="form-check-label" for="banana">Gosto de banana</label>
+          <input type="radio" class="form-check-input" type="checkbox" name="banana">
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label" for="pera">Gosto de pêra</label>
+          <input type="radio" class="form-check-input" type="checkbox" name="pera">
+        </div>
+
+        <div class="form-check">
+          <label class="form-check-label" for="maca">Gosto de maçã</label>
+          <input type="radio" class="form-check-input" type="checkbox" name="maca">
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
 </html>

@@ -1,6 +1,11 @@
 * {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+
+    box-sizing: border-box;
 }
 
 header {
@@ -41,6 +46,11 @@ header a:hover {
 section {
     border: 1px solid #4BB3FD;
     height: calc(100vh - 5rem);
+    padding: 3rem;
+}
+
+section h2 {
+    text-align: center;
 }
 
 main {
